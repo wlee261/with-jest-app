@@ -12,8 +12,7 @@ jobs:
         with:
           node-version: "18"
       - run: npm install
-      - run: npm run test
-      - run: a
+      - run: npm run test:ci
 
       - name: Tests ✅
         if: ${{ success() }}
