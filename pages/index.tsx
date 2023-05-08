@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Test Github Actions</title>
+        <title>Github Actions</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
