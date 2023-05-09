@@ -5,11 +5,11 @@ name: Deploy Next.js site to Pages
 #   push:
 #     branches: ["main"]
 
-  on:
-    workflow_run:
-      workflows: [Tests CI]
-      types:
-        - completed
+on:
+  workflow_run:
+    workflows: [Tests CI]
+    types:
+      - completed
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
