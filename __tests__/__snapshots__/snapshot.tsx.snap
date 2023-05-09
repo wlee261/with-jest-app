@@ -16,6 +16,11 @@ exports[`renders homepage unchanged 1`] = `
           Next.js!
         </a>
       </h1>
+      <h1
+        class="title"
+      >
+        We are automatically deploying this website with git actions
+      </h1>
       <p
         class="description"
       >
